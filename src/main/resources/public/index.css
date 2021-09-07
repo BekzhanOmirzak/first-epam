@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+}
+.container input{
+    display: block;
+    margin: 5px 0;
+}
+
+.right{
+    padding: 50px;
+}
+
+.crm {
+    padding: 10px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 20px;
+}
+
+.left {
+    padding: 50px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+td, th {
+    padding: 1px 20px;
+}
+
+td .delete {
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+td .edit {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add {
+    background-color: greenyellow;
+    padding: 5px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+
+
+
